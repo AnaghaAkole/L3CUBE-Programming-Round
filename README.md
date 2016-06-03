@@ -32,7 +32,7 @@ Instruction of excution:
 Keep both the files in same directory.
 $python fileops_v2.py 
 
-Additional comments: This program is another approach for performing version control. This program gives an interface where user can create a file, append a line to it, delete any line from it, commit changes done in it, and also revert the file back to any previous version. File operation constraints are met. Currently, file cannot revert to back to future version after being reverted to past version.
+Additional comments: This program is another approach for performing version control. This program gives an interface where user can create a file, append a line to it, delete any line from it, commit changes done in it, and also revert the file back to any previous version. File operation constraints are met. Currently, file cannot revert back to future version after being reverted to past version.
 
 *******************************************************************************************************************************
 Assignment no. 3
@@ -63,5 +63,6 @@ Associated code file: textfs.py
 
 Instruction of execution:
 $python textfs.py
+After executing 'create' command, enter the contents of the file and type 'end' to save the file.
 
 Additional comments: Not complete yet. This program emulates a command interface for a filesystem where user can create files, list them, and print file contents. The file storage and access is text based which is personally designed. User cannot delete files or copy external file content to internal files in this version.
